@@ -1,14 +1,14 @@
 import random
 
 def jogar_adivinhacao():
-    # 1. Gerar número aleatório de 1 a 50
-    numero_secreto = random.randint(1, 50)
+    # 1. Gerar número aleatório de 1 a 70
+    numero_secreto = random.randint(1, 70)
     tentativas = 0
     max_tentativas = 10
     acertou = False
 
     print("--- Bem-vindo ao Jogo de Adivinhação! ---")
-    print(f"Tente adivinhar o número entre 1 e 50. Você tem {max_tentativas} tentativas.")
+    print(f"Tente adivinhar o número entre 1 e 70. Você tem {max_tentativas} tentativas.")
 
     # 2. Laço de repetição para as tentativas
     while tentativas < max_tentativas:
@@ -37,4 +37,4 @@ def jogar_adivinhacao():
 # Iniciar o jogo
 if __name__ == "__main__":
     jogar_adivinhacao()
-49
+
